@@ -28,4 +28,9 @@ public class HelloWorldController{
         return "Hello world" + body.getName();
     }
 
+    @PostMapping("/{id}")
+    public String helloworldPostId(@PathVariable("id") String id, @RequestBody User body) {
+        return "Hello world" + body.getName() + id;
+    }
+
 }
