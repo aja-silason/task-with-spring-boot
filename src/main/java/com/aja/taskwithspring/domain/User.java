@@ -2,11 +2,11 @@ package com.aja.taskwithspring.domain;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.AllArgsContructor;
+import lombok.AllArgsConstructor;
 
 @Getter
 @Setter
-@AllArgsContructor
+@AllArgsConstructor
 public class User {
     private String name;
     private String email;
