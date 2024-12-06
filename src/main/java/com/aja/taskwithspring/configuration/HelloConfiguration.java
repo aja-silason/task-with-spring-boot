@@ -7,8 +7,8 @@ import org.springframework.context.annotation.Bean;
 public class HelloConfiguration{
 
     @Bean
-    public SDKAWS sdkAWS() {
-        return new SDKAWS();
+    public String helloworld() {
+        return "Hello world";
     }
 
 }
